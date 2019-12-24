@@ -18,7 +18,7 @@ pass
 
 resultFile = open("tmp.txt","w")
 
-readAllFile("/home/thuy/dich_nguoc/file_apk/com.royal.gamvip.v1.0.23/smali",resultFile)
+readAllFile("/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/Stick/smali",resultFile)
 
 resultFile.close()
 
