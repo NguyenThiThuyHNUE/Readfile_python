@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb794f34-51a4-464a-b6de-b0483db4e578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-matris.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-method-endMethod.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list-api-coincide.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list-api-coincide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read-line-smali-find-api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/read-line-in-line-file-text.py" beforeDir="false" afterPath="$PROJECT_DIR$/read-line-in-line-file-text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/read-file-smali.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read-line-in-line-file-text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/smali.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.32307693" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,7 +49,49 @@
       <recent name="$PROJECT_DIR$/venv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.read-line-in-line-file-text">
+  <component name="RunManager" selected="Python.api">
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo-matris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo-matris.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -54,7 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read-file-smali.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -63,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read-line-in-line-file-text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="list-api-coincide" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +125,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read-line-in-line-file-text.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list-api-coincide.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read-line-smali-find-api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demo1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read-line-smali-find-api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read-line-in-line-file-text" />
+        <item itemvalue="Python.api" />
+        <item itemvalue="Python.list-api-coincide" />
+        <item itemvalue="Python.demo-matris" />
+        <item itemvalue="Python.read-line-smali-find-api" />
         <item itemvalue="Python.demo1" />
       </list>
     </recent_temporary>
@@ -117,10 +191,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="202" width="599" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577768313708">
+    <state x="436" y="202" width="637" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578411170208">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="436" y="202" width="599" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1577768313708" />
+    <state x="436" y="202" width="637" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1578411170208" />
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577900317979">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1577900317979" />
     <state x="390" y="27" width="642" height="741" key="#demo1" timestamp="1576807293180">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -129,33 +207,41 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="295" y="27" width="832" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1576807277387" />
-    <state x="735" y="161" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577764531092">
+    <state x="735" y="161" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577779140391">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="735" y="161" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1577764531092" />
-    <state width="1276" height="162" key="GridCell.Tab.0.bottom" timestamp="1577292081895">
+    <state x="735" y="161" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1577779140391" />
+    <state width="1276" height="171" key="GridCell.Tab.0.bottom" timestamp="1578708254601">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="162" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577292081895" />
-    <state width="1276" height="162" key="GridCell.Tab.0.center" timestamp="1577292081895">
+    <state width="1276" height="171" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1578708254601" />
+    <state width="1276" height="171" key="GridCell.Tab.0.center" timestamp="1578708254600">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="162" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577292081895" />
-    <state width="1276" height="162" key="GridCell.Tab.0.left" timestamp="1577292081895">
+    <state width="1276" height="171" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1578708254600" />
+    <state width="1276" height="171" key="GridCell.Tab.0.left" timestamp="1578708254600">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="162" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577292081895" />
-    <state width="1276" height="162" key="GridCell.Tab.0.right" timestamp="1577292081895">
+    <state width="1276" height="171" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1578708254600" />
+    <state width="1276" height="171" key="GridCell.Tab.0.right" timestamp="1578708254601">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="162" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577292081895" />
-    <state x="289" y="38" width="910" height="730" key="SettingsEditor" timestamp="1577768424893">
+    <state width="1276" height="171" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1578708254601" />
+    <state x="289" y="38" width="910" height="730" key="SettingsEditor" timestamp="1577780086881">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="289" y="38" width="910" height="730" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577768424893" />
-    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577764315802">
+    <state x="289" y="38" width="910" height="730" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577780086881" />
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1578707316580">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1577764315802" />
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1578707316580" />
+    <state x="380" y="49" width="662" height="695" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577899258640">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="380" y="49" width="662" height="695" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1299.741@67.27.1299.741" timestamp="1577899258640" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1578708101877">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1578708101877" />
   </component>
 </project>
