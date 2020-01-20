@@ -1,13 +1,23 @@
 import os
+import re
+import sys
 
 
 def readFileSmali(inFile, outFile):
     f = open(inFile, "r")
+    count = 0
     for x in f:
-        if x.find('    invoke') != -1 or x.find('.method') != -1 or x.find('.end method') != -1 :
-            # or x.find('.method') != -1 or x.find('.end method') != -1
-            # print(x)
+        count +=1
+        # if not x.strip(): continue
+        if x.find('invoke') != -1 or x.find('.method') != -1 or x.find('.end method') != -1:
+        # or x.find('.method') != -1 or x.find('.end method') != -1
+        # print(x)
             outFile.write(x)
+        #     print(x)
+        #     break
+
+    # print(count)
+
 
 
 pass
@@ -18,4 +28,4 @@ readFileSmali(inFile, resultFile)
 
 resultFile.close()
 
-# print('done!')
+print('done!')

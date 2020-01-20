@@ -22,8 +22,8 @@ resultFile.close()
 
 print('done!')
 
-# thisset = {"apple", "banana", "cherry"}
+# thisset = {"apple", "banana", "cherry","apple"}
 #
-# thisset.add("apple")
+# # thisset.add("apple")
 #
-# print(thisset)
+# print(set(thisset))

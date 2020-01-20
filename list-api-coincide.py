@@ -7,7 +7,6 @@ def readFileSmali(inFile, outFile):
     f = open(inFile, "r")
     for x in f:
         if x.find('    invoke') != -1:
-            # count = count +1
             outFile.write(x)
 pass
 inFile = "api-method-endMethod.txt"
