@@ -3,7 +3,6 @@ import numpy as np
 
 def readFileSmali(inFile, outFile):
     f = open(inFile, "r")
-    api= open("api.txt")
     thisset = {""}
     for x in f:
         thisset.add(x)

@@ -8,16 +8,16 @@ def readAllFile(currentPath, outFile):
                 f = open(fileName, "r")
                 fileContent = f.readlines()
                 outFile.write("\n------>" + fileName+": \n")
-                #thisset = set()
-                #for x in fileContent:
-                 #   if '    invoke' in x:
-                  #      thisset.add(x)
+                thisset = set()
+                for x in fileContent:
+                   if '    invoke' in x:
+                       # outFile.write(x)
+                       thisset.add(x.strip())
                         # outFile.write(x)
-                #outFile.write(str(thisset))
-                    #     print(x)
+                # outFile.write(str(thisset))
                 # print(thisset)
-                # for letter in thisset:
-                #     outFile.write(letter)
+                for letter in set(thisset):
+                    outFile.write(letter + "\n")
                     # print(letter)
                         # outFile.write(x)
                         # print(x)
