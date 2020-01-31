@@ -17,9 +17,12 @@ def readAllFile(currentPath, outFile):
             if (os.path.isdir(fileName)):
                 readAllFile(fileName, outFile)
 pass
-
 resultFile = open("smali.txt", "w")
-readAllFile("/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/TikTokLite/smali", resultFile)
+automatic = open("Automatic-reverse-translation.txt","r")
+path = ""
+for line in automatic:
+    path ="/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/"+line.strip()+"/smali"
+    readAllFile(path, resultFile)
 for letter in thisset:
     resultFile.write(letter)
 resultFile.close()
