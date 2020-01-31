@@ -1,4 +1,5 @@
 import os
+thisset = set()
 def readAllFile(currentPath, outFile):
     fileList = os.listdir(currentPath)
     for name in fileList:
@@ -7,36 +8,66 @@ def readAllFile(currentPath, outFile):
             if ".smali" in fileName:
                 f = open(fileName, "r")
                 fileContent = f.readlines()
-                outFile.write("\n------>" + fileName+": \n")
-                thisset = set()
+                # outFile.write("\n------>" + fileName+": \n")
                 for x in fileContent:
                    if '    invoke' in x:
-                       # outFile.write(x)
-                       thisset.add(x.strip())
-                        # outFile.write(x)
-                # outFile.write(str(thisset))
-                # print(thisset)
-                for letter in set(thisset):
-                    outFile.write(letter + "\n")
-                    # print(letter)
-                        # outFile.write(x)
-                        # print(x)
-                # print(fileContent)
+                       if x not in thisset:
+                        thisset.add(x)
         else:
             if (os.path.isdir(fileName)):
                 readAllFile(fileName, outFile)
 pass
 
 resultFile = open("smali.txt", "w")
-
-readAllFile("/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/Stick/smali", resultFile)
-
+readAllFile("/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/TikTokLite/smali", resultFile)
+for letter in thisset:
+    resultFile.write(letter)
 resultFile.close()
-
 print('done!')
 
+
+
 # import os
+# def readAllFile(currentPath, outFile):
+#     fileList = os.listdir(currentPath)
+#     for name in fileList:
+#         fileName = currentPath + "/" + name
+#         if (os.path.isfile(fileName)):
+#             if ".smali" in fileName:
+#                 f = open(fileName, "r")
+#                 fileContent = f.readlines()
+#                 outFile.write("\n------>" + fileName+": \n")
+#                 thisset = set()
+#                 for x in fileContent:
+#                    if '    invoke' in x:
+#                        # outFile.write(x)
+#                        thisset.add(x.strip())
+#                         # outFile.write(x)
+#                 # outFile.write(str(thisset))
+#                 # print(thisset)
+#                 for letter in set(thisset):
+#                     outFile.write(letter + "\n")
+#                     # print(letter)
+#                         # outFile.write(x)
+#                         # print(x)
+#                 # print(fileContent)
+#         else:
+#             if (os.path.isdir(fileName)):
+#                 readAllFile(fileName, outFile)
+# pass
 #
+# resultFile = open("smali.txt", "w")
+#
+# readAllFile("/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/Stick/smali", resultFile)
+#
+# resultFile.close()
+#
+# print('done!')
+
+
+
+
+# import os
 # def readAllFile(currentPath, outFile):
 #     fileList = os.listdir(currentPath)
 #     for name in fileList:
