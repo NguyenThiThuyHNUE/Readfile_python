@@ -6,11 +6,9 @@ def readFileSmali(inFile, outFile):
     thisset = {""}
     for x in f:
         thisset.add(x)
-        # outFile.write(str(thisset))
-    # outFile.write(str(len(thisset)))
     for letter in set(thisset):
-            outFile.write(letter)
-    # outFile.write(str(len(thisset)))
+        outFile.write(letter)
+
 pass
 inFile = "list-api-coincide.txt"
 resultFile = open("api.txt", "w")
@@ -20,9 +18,3 @@ readFileSmali(inFile, resultFile)
 resultFile.close()
 
 print('done!')
-
-# thisset = {"apple", "banana", "cherry","apple"}
-#
-# # thisset.add("apple")
-#
-# print(set(thisset))
