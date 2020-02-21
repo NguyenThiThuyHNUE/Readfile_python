@@ -13,7 +13,8 @@ def matric_invoke(inFile, outFile):
         for y in range(len(arr)):
             if arr[x][0:12] == arr[y][0:12]:
                 A[x][y] = A[y][x] =1
-    outFile.write(str(A))
+    # outFile.write(str(A))
+    print(A)
 
 pass
 inFile = "api.txt"
