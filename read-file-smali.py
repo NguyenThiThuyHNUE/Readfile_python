@@ -10,14 +10,14 @@ def readAllFile(currentPath, outFile):
                 fileContent = f.readlines()
                 # outFile.write("\n------>" + fileName+": \n")
                 for x in fileContent:
-                   if '    invoke' in x:
+                   if "    invoke" in x:
                        if x not in thisset:
                         thisset.add(x)
         else:
             if (os.path.isdir(fileName)):
                 readAllFile(fileName, outFile)
 pass
-resultFile = open("smali.txt", "w")
+resultFile = open("API-first.txt", "w")
 automatic = open("Automatic-reverse-translation.txt","r")
 path = ""
 for line in automatic:
@@ -59,7 +59,7 @@ print('done!')
 #                 readAllFile(fileName, outFile)
 # pass
 #
-# resultFile = open("smali.txt", "w")
+# resultFile = open("API-first.txt", "w")
 #
 # readAllFile("/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/Stick/smali", resultFile)
 #
@@ -87,7 +87,7 @@ print('done!')
 # pass
 #
 #
-# resultFile = open("smali.txt", "w")
+# resultFile = open("API-first.txt", "w")
 #
 # readAllFile("/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/Stick/smali",resultFile)
 #
