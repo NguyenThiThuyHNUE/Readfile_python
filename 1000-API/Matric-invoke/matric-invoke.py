@@ -12,7 +12,7 @@ def matric_invoke(inFile, outFile):
     for x in range(len(arr)):
         for y in range(len(arr)):
             if arr[x][0:12] == arr[y][0:12]:
-                A[x][y] = A[y][x] =1
+                A[x][y] =1
     outFile.write(str(A))
     # print(A)
 
