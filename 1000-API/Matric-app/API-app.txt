@@ -1,1000 +1,1000 @@
-c/LuluBox    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-c/LuluBox    invoke-static {p0, v0}, Lkotlin/jvm/internal/ac;->f(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {p1, v0}, Lkotlin/jvm/internal/ac;->f(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-static {p1, v0}, Lio/reactivex/internal/functions/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
-c/LuluBox    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
-c/LuluBox    invoke-static {p2, v0}, Lkotlin/jvm/internal/ac;->f(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
-c/LuluBox    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-c/LuluBox    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
-c/LuluBox    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-c/LuluBox    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
-c/LuluBox    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
-c/LuluBox    invoke-virtual {p2, p1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
-c/LuluBox    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-static {p0, v0}, Lio/reactivex/internal/functions/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
-c/LuluBox    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1}, Landroid/os/Parcel;->readException()V
-c/LuluBox    invoke-virtual {v0, v2}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->u()Lcom/google/android/gms/internal/ff;
-c/LuluBox    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-c/LuluBox    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
-c/LuluBox    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-c/LuluBox    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-c/LuluBox    invoke-interface {v0}, Ljava/util/List;->size()I
-c/LuluBox    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
-c/LuluBox    invoke-static {p2, v0}, Lio/reactivex/internal/functions/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {}, Lcom/lulu/unreal/client/core/UnrealEngine;->b()Lcom/lulu/unreal/client/core/UnrealEngine;
-c/LuluBox    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-c/LuluBox    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-c/LuluBox    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-c/LuluBox    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
-c/LuluBox    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/HappyMod    invoke-virtual/range {v27 .. v28}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-c/LuluBox    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
-c/LuluBox    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-static {}, Lcom/appsflyer/AppsFlyerProperties;->a()Lcom/appsflyer/AppsFlyerProperties;
-c/LuluBox    invoke-static {v0}, Lz1/arc;->a(Lio/reactivex/i;)Lio/reactivex/i;
-c/LuluBox    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-static {v0, v1}, Lkotlin/jvm/internal/ac;->b(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-static {p0, p1}, Lkotlin/jvm/internal/ac;->b(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
-c/LuluBox    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-static {v0}, Lz1/arc;->a(Lio/reactivex/w;)Lio/reactivex/w;
-c/LuluBox    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-static {p3, v0}, Lio/reactivex/internal/functions/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-interface {p1, v3}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/Boolean;->compareTo(Ljava/lang/Boolean;)I
-c/LuluBox    invoke-virtual {p1}, Lorg/apache/a/a/e;->b()V
-c/LuluBox    invoke-virtual {p1, v0}, Lorg/apache/a/a/e;->a(Lorg/apache/a/a/b;)V
-c/LuluBox    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-direct {v0, v1}, Lz1/wj;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
-c/LuluBox    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
-c/LuluBox    invoke-interface {v0, v5, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-c/HappyMod    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/HappyMod    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-c/LuluBox    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/HappyMod    invoke-static {v0}, Lcom/tencent/bugly/yaq/proguard/x;->a(Ljava/lang/Throwable;)Z
-c/LuluBox    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-static {p3, v0}, Lkotlin/jvm/internal/ac;->f(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
-c/HappyMod    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-static {v1}, Lkotlin/jvm/internal/z;->a(I)V
-c/LuluBox    invoke-static {p0, v0, v1, v0}, Lkotlinx/coroutines/experimental/channels/aa$a;->a(Lkotlinx/coroutines/experimental/channels/aa;Ljava/lang/Throwable;ILjava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
-c/LuluBox    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
-c/LuluBox    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-static {v3}, Lkotlin/jvm/internal/z;->a(I)V
-c/LuluBox    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-direct {p0, v2, v3}, Lcom/google/zxing/oned/l;->a([ILjava/lang/String;)V
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-static {}, Lkotlin/collections/u;->a()Ljava/util/List;
-c/LuluBox    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
-c/HappyMod    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-c/LuluBox    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
-c/LuluBox    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-c/LuluBox    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v2}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-interface {p1, v2}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/HappyMod    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
-c/LuluBox    invoke-static {}, Lio/reactivex/i;->a()I
-c/LuluBox    invoke-static {v1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {p4, v0}, Lio/reactivex/internal/functions/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-static {}, Lio/reactivex/internal/functions/Functions;->b()Lz1/apz;
-c/LuluBox    invoke-static {v1}, Lkotlin/jvm/internal/z;->c(I)V
-c/LuluBox    invoke-static {v1}, Lkotlin/jvm/internal/z;->b(I)V
-c/LuluBox    invoke-static {v0, v1}, Lmirror/b;->load(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Class;
-c/LuluBox    invoke-direct {v6, v11, v9}, Lcom/google/zxing/qrcode/decoder/g$b;-><init>(I[Lcom/google/zxing/qrcode/decoder/g$a;)V
-c/LuluBox    invoke-direct {v11, v12, v13}, Lcom/google/zxing/qrcode/decoder/g$a;-><init>(II)V
-c/LuluBox    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1}, Landroid/os/Parcel;->readInt()I
-c/LuluBox    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-interface {p0}, Ljava/util/List;->size()I
-c/LuluBox    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
-c/LuluBox    invoke-static {}, Lkotlin/jvm/internal/ac;->a()V
-c/LuluBox    invoke-interface {v1}, Ljava/util/List;->size()I
-c/LuluBox    invoke-direct {v0, v1}, Lz1/wk;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->d()V
-c/LuluBox    invoke-static {v0}, Lz1/arc;->a(Lio/reactivex/ae;)Lio/reactivex/ae;
-c/LuluBox    invoke-direct {p0}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-static {}, Lcom/facebook/g;->h()Landroid/content/Context;
-c/LuluBox    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {p1}, Lcom/google/android/gms/common/internal/ar;->a(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1}, Ljava/util/List;->size()I
-c/LuluBox    invoke-interface {p0}, Lkotlin/sequences/m;->a()Ljava/util/Iterator;
-c/LuluBox    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0, v2}, Landroid/os/Parcel;->writeInt(I)V
-c/HappyMod    invoke-static {v0, v1}, Lcom/tencent/bugly/yaq/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual/range {p2 .. p2}, Landroid/os/Parcel;->readInt()I
-c/LuluBox    invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/internal/ge;->q()Lcom/google/android/gms/internal/ej;
-c/LuluBox    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0}, Lcom/google/android/gms/internal/hb;->d()V
-c/LuluBox    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-static {v2}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
-c/LuluBox    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1, v4}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1}, Lorg/apache/a/a/e;->w()Ljava/lang/String;
-c/LuluBox    invoke-static {}, Lio/reactivex/w;->j()I
-c/LuluBox    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-interface {p1, v1}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-direct {p0, p1}, Lio/reactivex/internal/operators/observable/a;-><init>(Lio/reactivex/aa;)V
-c/LuluBox    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-c/LuluBox    invoke-static {}, Lz1/ard;->a()Lio/reactivex/ad;
-c/LuluBox    invoke-direct {v0, v1, v14, v15}, Lcom/xiaomi/xmpush/thrift/g;-><init>(Ljava/lang/String;II)V
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-c/LuluBox    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-static {}, Lio/reactivex/internal/functions/Functions;->a()Lz1/aqa;
-c/LuluBox    invoke-static {p0, v0}, Lkotlin/jvm/internal/ac;->b(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-c/LuluBox    invoke-static {}, Lcom/google/zxing/FormatException;->getFormatInstance()Lcom/google/zxing/FormatException;
-c/LuluBox    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/HappyMod    invoke-static {v0, v1}, Lcom/tencent/bugly/yaq/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/LuluBox    invoke-static {}, Ljava/util/Collections;->emptyList()Ljava/util/List;
-c/LuluBox    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-c/HappyMod    invoke-virtual/range {v27 .. v27}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/HappyMod    invoke-direct/range {v27 .. v28}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-static {}, Lcom/google/zxing/NotFoundException;->getNotFoundInstance()Lcom/google/zxing/NotFoundException;
-c/LuluBox    invoke-interface {p0}, Lkotlinx/coroutines/experimental/channels/aa;->i()Lkotlinx/coroutines/experimental/channels/n;
-c/LuluBox    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
-c/LuluBox    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hc;->Q()V
-c/LuluBox    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
-c/LuluBox    invoke-static {}, Lcom/appsflyer/am;->a()Lcom/appsflyer/am;
-c/LuluBox    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-c/LuluBox    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
-c/HappyMod    invoke-static {v1}, Lcom/tencent/bugly/yaq/proguard/x;->a(Ljava/lang/Throwable;)Z
-c/LuluBox    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-c/LuluBox    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0}, Lcom/google/android/gms/internal/ge;->h()Lcom/google/android/gms/internal/ga;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-c/LuluBox    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-c/LuluBox    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
-c/LuluBox    invoke-static {v3}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
-c/LuluBox    invoke-static {v0}, Lz1/arc;->a(Lio/reactivex/o;)Lio/reactivex/o;
-c/LuluBox    invoke-virtual {p1, v0}, Lorg/apache/a/a/e;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(I)V
-c/LuluBox    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
-c/LuluBox    invoke-direct {p0}, Lcom/google/android/gms/internal/zzbck;-><init>()V
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/ge;->f()Lcom/google/android/gms/internal/ff;
-c/LuluBox    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {v1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
-c/LuluBox    invoke-direct {p0}, Lz1/wi;-><init>()V
-c/LuluBox    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-interface {p2, v3}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-c/LuluBox    invoke-static {v0, v1}, Lorg/apache/a/b;->a(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
-c/LuluBox    invoke-interface {v0, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v3}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
-c/LuluBox    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {}, Lcom/lulu/unreal/os/VUserHandle;->myUserId()I
-c/LuluBox    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
-c/LuluBox    invoke-static {p1, p2}, Lcom/lulu/unreal/client/env/e;->a(Ljava/lang/Throwable;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
-c/LuluBox    invoke-interface {p1, v5}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
-c/LuluBox    invoke-direct {p0, v0}, Lcom/lulu/unreal/client/core/c;->a(Lz1/zw;)V
-c/HappyMod    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/internal/hb;->u()Lcom/google/android/gms/internal/ff;
-c/LuluBox    invoke-virtual {v5}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-direct {v3, v2}, Ljava/lang/StringBuilder;-><init>(I)V
-c/LuluBox    invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(I)V
-c/HappyMod    invoke-static {v0, v1}, Lcom/tencent/bugly/yaq/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
-c/LuluBox    invoke-static {v1}, Lkotlin/jvm/internal/ac;->c(Ljava/lang/String;)V
-c/LuluBox    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-interface {p1, v2, v0, v1, v3}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
-c/HappyMod    invoke-static {v0, v1}, Lcom/tencent/bugly/yaq/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
-c/LuluBox    invoke-virtual {p3, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
-c/LuluBox    invoke-interface {p0, v0}, Ljava/lang/CharSequence;->charAt(I)C
-c/LuluBox    invoke-direct {p3}, Ljava/lang/StringBuilder;-><init>()V
-c/HappyMod    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/HappyMod    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-virtual {v1}, Lcom/google/android/gms/internal/ff;->y()Lcom/google/android/gms/internal/fh;
-c/LuluBox    invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-direct {p0, p1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
-c/HappyMod    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual/range {p3 .. p3}, Landroid/os/Parcel;->writeNoException()V
-c/LuluBox    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1}, Lcom/google/android/gms/internal/pn;->e()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-c/LuluBox    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-interface {v0, v1}, Lio/reactivex/aa;->subscribe(Lio/reactivex/ac;)V
-c/LuluBox    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-c/LuluBox    invoke-static {v0}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
-c/LuluBox    invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
-c/LuluBox    invoke-interface {p0, v1}, Ljava/lang/CharSequence;->charAt(I)C
-c/LuluBox    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Lz1/aab;->a()Lz1/abn;
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/zg;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
-c/HappyMod    invoke-static {}, Landroid/os/Process;->myPid()I
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Number;->intValue()I
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/lz;->b()Landroid/os/Parcel;
-c/LuluBox    invoke-static {p1}, Lcom/google/android/gms/internal/ag;->a(Landroid/os/Parcel;)I
-c/LuluBox    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
-c/LuluBox    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-interface {p1, p2, v0, v1, v2}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
-c/HappyMod    invoke-virtual/range {v17 .. v17}, Ljava/io/IOException;->printStackTrace()V
-c/HappyMod    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/HappyMod    invoke-virtual {p1, v0, v1}, Lcom/tencent/bugly/yaq/proguard/j;->a(Ljava/lang/String;I)V
-c/LuluBox    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
-c/LuluBox    invoke-virtual {v0, p2}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-c/LuluBox    invoke-static {p5, v0}, Lio/reactivex/internal/functions/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-c/LuluBox    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-c/LuluBox    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
-c/LuluBox    invoke-interface {v2}, Ljava/util/List;->size()I
-c/LuluBox    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-interface {p4, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1, v2}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
-c/LuluBox    invoke-direct {p0, p1}, Landroid/support/constraint/ConstraintSet;->get(I)Landroid/support/constraint/ConstraintSet$Constraint;
-c/LuluBox    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-c/LuluBox    invoke-static {v2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
-c/HappyMod    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/ge;->q()Lcom/google/android/gms/internal/ej;
-c/LuluBox    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-c/LuluBox    invoke-static {v4}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
-c/LuluBox    invoke-static {p2, v0}, Lio/reactivex/internal/functions/a;->a(ILjava/lang/String;)I
-c/LuluBox    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
-c/LuluBox    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
-c/LuluBox    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
-c/LuluBox    invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
-c/LuluBox    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/internal/ge;->f()Lcom/google/android/gms/internal/ff;
-c/LuluBox    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Lcom/google/android/gms/internal/pn;->a()I
-c/LuluBox    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
-c/LuluBox    invoke-static {v0}, Lz1/arc;->a(Lio/reactivex/a;)Lio/reactivex/a;
-c/LuluBox    invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
-c/LuluBox    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-interface {v0}, Ljava/util/List;->clear()V
-c/LuluBox    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0}, Landroid/os/Binder;-><init>()V
-c/HappyMod    invoke-static {v4}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/HappyMod    invoke-direct {v0, v1}, Lcom/tencent/bugly/yaq/proguard/g;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
-c/LuluBox    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
-c/LuluBox    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-c/LuluBox    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-c/LuluBox    invoke-static {p2}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-interface {v2, v3, v0, v1, v4}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
-c/LuluBox    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v4}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {v0}, Ljava/io/File;->exists()Z
-c/LuluBox    invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/fh;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/wz;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
-c/LuluBox    invoke-static {v1}, Lkotlin/collections/au;->a(I)I
-c/LuluBox    invoke-static {v0}, Lkotlin/collections/u;->n(Ljava/lang/Iterable;)Ljava/util/List;
-c/LuluBox    invoke-static {p1}, Lcom/google/android/gms/internal/af;->a(Landroid/os/Parcel;)I
-c/LuluBox    invoke-static {p1, v0}, Lkotlin/jvm/internal/ac;->b(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-static {p1, v0}, Lcom/google/android/gms/internal/af;->F(Landroid/os/Parcel;I)V
-c/LuluBox    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
-c/LuluBox    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
-c/HappyMod    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1}, Lcom/google/android/gms/internal/pr;->b()Z
-c/LuluBox    invoke-virtual {p1, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-static {}, Lcom/google/android/gms/internal/ei;->X()Z
-c/LuluBox    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
-c/LuluBox    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
-c/LuluBox    invoke-interface {p1, v0}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-direct {p0, p1}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0, p1}, Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/StringBuilder;->length()I
-c/LuluBox    invoke-virtual {p3, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p2}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-static {}, Lcom/xiaomi/push/service/as;->a()Lcom/xiaomi/push/service/as;
-c/LuluBox    invoke-static {p1}, Lcom/google/android/gms/internal/ff;->a(Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
-c/LuluBox    invoke-direct {v0}, Landroid/support/v4/util/ArrayMap;-><init>()V
-c/LuluBox    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p1, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-interface {p2, v2}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/HappyMod    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Long;->longValue()J
-c/LuluBox    invoke-virtual {v0}, Landroid/view/View;->animate()Landroid/view/ViewPropertyAnimator;
-c/LuluBox    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-c/LuluBox    invoke-virtual {p1, v0}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
-c/LuluBox    invoke-static {p1}, Lcom/google/android/gms/common/internal/ar;->a(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, v3}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-direct {v0, v1, v2}, Lz1/wq;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
-c/LuluBox    invoke-direct {v0, v1, v14, v15}, Lcom/xiaomi/push/thrift/a;-><init>(Ljava/lang/String;II)V
-c/LuluBox    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/HappyMod    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-c/LuluBox    invoke-virtual {v0}, Lcom/google/android/gms/internal/ff;->E()Lcom/google/android/gms/internal/fh;
-c/LuluBox    invoke-virtual {v0, v3}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Lcom/google/android/gms/internal/ff;->y()Lcom/google/android/gms/internal/fh;
-c/LuluBox    invoke-virtual {p1}, Landroid/os/RemoteException;->printStackTrace()V
-c/LuluBox    invoke-static {}, Lcom/facebook/g;->l()Ljava/lang/String;
-c/LuluBox    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-direct {v0, v1, v15, v2}, Lcom/xiaomi/xmpush/thrift/r;-><init>(Ljava/lang/String;ILjava/lang/String;)V
-c/HappyMod    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0}, Lcom/google/android/gms/internal/hb;->u()Lcom/google/android/gms/internal/ff;
-c/LuluBox    invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-static {}, Lz1/wz;->f()Lz1/aaa;
-c/LuluBox    invoke-static {}, Lcom/hianalytics/android/b/a/a;->h()V
-c/LuluBox    invoke-static {v3}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
-c/LuluBox    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-c/LuluBox    invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-c/LuluBox    invoke-direct {p0, v0}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
-c/LuluBox    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-super {p0}, Lz1/wd;->c()V
-c/LuluBox    invoke-static {}, Lz1/asy;->b()Ljava/lang/Object;
-c/LuluBox    invoke-static {}, Lcom/lulu/unreal/client/d;->get()Lcom/lulu/unreal/client/d;
-c/LuluBox    invoke-static {v4, v5}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-c/LuluBox    invoke-static {v3}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
-c/LuluBox    invoke-static {p4, v0}, Lkotlin/jvm/internal/ac;->f(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/ar;->a(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-direct {p0, v0}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0, v0, v1}, Lz1/wd;-><init>(Lmirror/k;Ljava/lang/String;)V
-c/HappyMod    invoke-static {}, Landroid/os/Process;->myTid()I
-c/LuluBox    invoke-virtual {v5}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Lz1/aaa;->b()Lz1/abm;
-c/LuluBox    invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
-c/LuluBox    invoke-static {v1, v2}, Lkotlin/jvm/internal/ac;->b(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-interface {v0, v4, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-c/LuluBox    invoke-interface {p0, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
-c/HappyMod    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/HappyMod    invoke-static {v1, v2}, Lcom/tencent/bugly/yaq/proguard/x;->e(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual/range {v0 .. v5}, Landroid/support/constraint/ConstraintSet;->connect(IIIII)V
-c/LuluBox    invoke-virtual {v0}, Landroid/support/constraint/solver/widgets/ConstraintAnchor;->getResolutionNode()Landroid/support/constraint/solver/widgets/ResolutionAnchor;
-c/LuluBox    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/util/BitSet;->get(I)Z
-c/LuluBox    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-c/LuluBox    invoke-virtual {v0, v1, p1}, Ljava/util/BitSet;->set(IZ)V
-c/LuluBox    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
-c/LuluBox    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
-c/LuluBox    invoke-static {}, Lz1/aab;->b()Lz1/aab;
-c/LuluBox    invoke-static {v3, v4}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
-c/LuluBox    invoke-static {v0, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-static {p1, v0}, Lio/reactivex/internal/functions/a;->a(ILjava/lang/String;)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/u;->a(Ljava/lang/Object;)Ljava/util/List;
-c/LuluBox    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
-c/LuluBox    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-c/HappyMod    invoke-interface {v0, v1, v6}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v0}, Lcom/google/android/gms/internal/ff;->y()Lcom/google/android/gms/internal/fh;
-c/LuluBox    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {p1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-c/LuluBox    invoke-static {}, Landroid/os/Process;->myPid()I
-c/LuluBox    invoke-static {v0}, Lkotlin/collections/au;->a(I)I
-c/LuluBox    invoke-static {v0}, Lcom/xiaomi/channel/commonutils/logger/b;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-static {v0}, Lcom/facebook/internal/ae;->a(Ljava/lang/String;)Z
-c/LuluBox    invoke-static {p1}, Lcom/xiaomi/channel/commonutils/logger/b;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-static {p1, v0}, Lcom/lulu/unreal/client/env/e;->a(Ljava/lang/Throwable;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-c/HappyMod    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/HappyMod    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v2}, Ljava/util/ArrayList;->size()I
-c/LuluBox    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
-c/LuluBox    invoke-virtual {p1, v0, v1}, Lcom/google/android/gms/internal/po;->a(ILjava/lang/String;)V
-c/LuluBox    invoke-virtual {p0}, Landroid/support/v7/widget/LinearLayoutManager;->getChildCount()I
-c/LuluBox    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {}, Lz1/adm;->a()Lz1/adm;
-c/LuluBox    invoke-static {v1, v2}, Lcom/lulu/unreal/server/content/f;->restoreCallingIdentity(J)V
-c/LuluBox    invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
-c/LuluBox    invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
-c/LuluBox    invoke-direct {v1, v0}, Ljava/util/LinkedHashMap;-><init>(I)V
-c/LuluBox    invoke-direct {v0, v1, v3}, Lz1/wq;-><init>(Ljava/lang/String;Ljava/lang/Object;)V
-c/HappyMod    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
-c/HappyMod    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
-c/HappyMod    invoke-static/range {v27 .. v27}, Lcom/wrapper/proxyapplication/Util;->DeleteFile(Ljava/lang/String;)I
-c/HappyMod    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
-c/LuluBox    invoke-virtual {p1}, Lcom/google/android/gms/internal/ff;->A()Lcom/google/android/gms/internal/fh;
-c/LuluBox    invoke-virtual {p0}, Lz1/aah;->a()Lz1/abu;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->m()Landroid/content/Context;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/ej;->B()Landroid/database/sqlite/SQLiteDatabase;
-c/LuluBox    invoke-static {}, Lcom/appsflyer/j;->c()Lcom/appsflyer/j;
-c/LuluBox    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
-c/LuluBox    invoke-static {v0}, Lcom/google/android/gms/internal/gj;->a(Lcom/google/android/gms/internal/gj;)Lcom/google/android/gms/internal/ge;
-c/LuluBox    invoke-static {v0, v1}, Lz1/avj;->c(II)I
-c/LuluBox    invoke-interface {p3, p4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
-c/LuluBox    invoke-direct {p1}, Ljava/lang/NullPointerException;-><init>()V
-c/HappyMod    invoke-virtual/range {v30 .. v30}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/HappyMod    invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
-c/HappyMod    invoke-virtual {p1, v0, v1}, Lcom/tencent/bugly/yaq/proguard/i;->a(Ljava/lang/String;I)V
-c/HappyMod    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
-c/HappyMod    invoke-static {}, Lcom/tencent/bugly/yaq/crashreport/common/info/a;->b()Lcom/tencent/bugly/yaq/crashreport/common/info/a;
-c/HappyMod    invoke-direct/range {v30 .. v31}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-c/LuluBox    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-static {v1, v2}, Lcom/google/android/gms/internal/po;->b(ILjava/lang/String;)I
-c/LuluBox    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-c/LuluBox    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
-c/LuluBox    invoke-interface {p1}, Ljava/io/ObjectInput;->readBoolean()Z
-c/LuluBox    invoke-interface {p1, v0}, Ljava/io/ObjectOutput;->writeBoolean(Z)V
-c/LuluBox    invoke-interface {p0}, Ljava/util/Collection;->size()I
-c/LuluBox    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
-c/HappyMod    invoke-static {v1, v2}, Lcom/tencent/bugly/yaq/proguard/x;->d(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/HappyMod    invoke-static {v1, v2}, Lcom/tencent/bugly/yaq/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v1}, Landroid/support/constraint/solver/widgets/ConstraintAnchor$Type;->ordinal()I
-c/LuluBox    invoke-virtual {p4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Landroid/view/View;->getTop()I
-c/LuluBox    invoke-virtual {p1}, Landroid/graphics/Canvas;->save()I
-c/LuluBox    invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->p()Lcom/google/android/gms/internal/fd;
-c/LuluBox    invoke-virtual {p0}, Landroid/support/transition/MatrixUtils$1;->oops()V
-c/LuluBox    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
-c/LuluBox    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
-c/LuluBox    invoke-direct {p1}, Landroid/os/Bundle;-><init>()V
-c/HappyMod    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-c/HappyMod    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Lcom/google/a/a/b;->g()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Landroid/os/Parcel;->dataPosition()I
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/xu;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-static {}, Lcom/facebook/AccessToken;->getCurrentAccessToken()Lcom/facebook/AccessToken;
-c/LuluBox    invoke-static {v6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
-c/LuluBox    invoke-static {p1}, Lcom/xiaomi/channel/commonutils/logger/b;->d(Ljava/lang/String;)V
-c/LuluBox    invoke-static {p1, p2}, Lkotlin/jvm/internal/ac;->b(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-static {p0, v0}, Lcom/facebook/internal/af;->a(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-interface {p2, v0}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p0, p1}, Lz1/avb;->a(Ljava/lang/Comparable;)Z
-c/LuluBox    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
-c/LuluBox    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
-c/HappyMod    invoke-virtual/range {v29 .. v30}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/HappyMod    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/HappyMod    invoke-static/range {v28 .. v30}, Lcom/wrapper/proxyapplication/Util;->CreatenewFileName(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-c/HappyMod    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-virtual {v4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v3}, Ljava/util/ArrayList;->size()I
-c/LuluBox    invoke-virtual {v0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
-c/LuluBox    invoke-virtual {v0, v2, v5, v6}, Lcom/bumptech/glide/Registry;->a(Ljava/lang/Class;Ljava/lang/Class;Lz1/gx;)Lcom/bumptech/glide/Registry;
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
-c/LuluBox    invoke-virtual {p1, v0, v1}, Lcom/google/a/a/c;->a(ILjava/lang/String;)V
-c/LuluBox    invoke-virtual {p0}, Lcom/bumptech/glide/request/a;->e()Lcom/bumptech/glide/request/a;
-c/LuluBox    invoke-virtual {p0}, Landroid/support/v4/widget/NestedScrollView;->getScrollY()I
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/yb;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-static {v0}, Lcom/appsflyer/AFLogger;->d(Ljava/lang/String;)V
-c/LuluBox    invoke-static {v0, v4, v5, v6}, Lcom/google/android/gms/internal/fd;->a(Ljava/lang/StringBuilder;ILjava/lang/String;Ljava/lang/Object;)V
-c/LuluBox    invoke-static {v0, v2}, Lcom/google/a/a/c;->b(ILjava/lang/String;)I
-c/LuluBox    invoke-static {p6, v0}, Lio/reactivex/internal/functions/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-static {p1, v2, v1}, Lcom/google/android/gms/internal/ag;->a(Landroid/os/Parcel;II)V
-c/LuluBox    invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-c/LuluBox    invoke-interface {p0, v2}, Ljava/lang/CharSequence;->charAt(I)C
-c/LuluBox    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-direct {v4, v3}, Ljava/lang/StringBuilder;-><init>(I)V
-c/LuluBox    invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
-c/HappyMod    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/HappyMod    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
-c/HappyMod    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v0, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p2}, Lcom/google/android/gms/internal/ff;->y()Lcom/google/android/gms/internal/fh;
-c/LuluBox    invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
-c/LuluBox    invoke-virtual {p1, p2}, Lcom/google/android/gms/internal/fh;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-static {}, Lcom/lulu/unreal/client/core/UnrealEngine;->a()Lcom/lulu/unreal/client/core/SettingConfig;
-c/LuluBox    invoke-static {v4}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-static {v2}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
-c/LuluBox    invoke-static {v2}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
-c/LuluBox    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-c/LuluBox    invoke-static {v1, v0}, Ljava/lang/Math;->min(II)I
-c/LuluBox    invoke-static {v0, v1, v2}, Lcom/facebook/internal/ae;->a(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
-c/LuluBox    invoke-static {p0}, Lkotlin/text/o;->g(Ljava/lang/CharSequence;)I
-c/LuluBox    invoke-static {p0, p1}, Lcom/google/android/gms/internal/af;->a(Landroid/os/Parcel;I)I
-c/LuluBox    invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
-c/HappyMod    invoke-static {v2, v3}, Lcom/tencent/bugly/yaq/proguard/x;->c(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual/range {p2 .. p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
-c/LuluBox    invoke-virtual {v3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0}, Lcom/lulu/unreal/client/core/UnrealEngine;->q()Landroid/content/Context;
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
-c/LuluBox    invoke-static {v4, v5}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
-c/LuluBox    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-static {v14}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {p1}, Lcom/lulu/unreal/client/env/e;->a(Ljava/lang/Throwable;)V
-c/LuluBox    invoke-static {p1}, Lcom/bumptech/glide/util/j;->a(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
-c/LuluBox    invoke-interface {v2, p2}, Lkotlinx/coroutines/experimental/channels/n;->c(Lkotlin/coroutines/experimental/c;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v2, p2}, Lkotlinx/coroutines/experimental/channels/n;->a(Lkotlin/coroutines/experimental/c;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p2, p0}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1}, Ljava/util/Collection;->size()I
-c/LuluBox    invoke-direct {v5}, Ljava/util/ArrayList;-><init>()V
-c/LuluBox    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
-c/LuluBox    invoke-direct {v0, v1}, Lkotlin/TypeCastException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {v0, v1}, Ljava/util/LinkedHashSet;-><init>(I)V
-c/LuluBox    invoke-direct {p0}, Lio/reactivex/w;-><init>()V
-c/LuluBox    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
-c/HappyMod    invoke-virtual {v3}, Ljava/io/BufferedInputStream;->close()V
-c/HappyMod    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/HappyMod    invoke-static {}, Lcom/tencent/bugly/yaq/proguard/w;->a()Lcom/tencent/bugly/yaq/proguard/w;
-c/LuluBox    invoke-virtual {v2}, Ljava/lang/Long;->longValue()J
-c/LuluBox    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/internal/aj;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/aj;
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p3, p2}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-static {v2, v3}, Lkotlin/jvm/internal/ac;->b(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-static {v0}, Ljava/lang/Math;->round(F)I
-c/LuluBox    invoke-static {v0}, Lio/reactivex/exceptions/a;->b(Ljava/lang/Throwable;)V
-c/LuluBox    invoke-static {v0, v2}, Lcom/google/android/gms/internal/af;->q(Landroid/os/Parcel;I)Ljava/lang/String;
-c/LuluBox    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-static {p1, v0}, Lcom/google/android/gms/internal/ag;->a(Landroid/os/Parcel;I)V
-c/LuluBox    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-c/LuluBox    invoke-direct {v0}, Lcom/bumptech/glide/request/h;-><init>()V
-c/LuluBox    invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
-c/LuluBox    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-c/HappyMod    invoke-static {p0}, Lcom/tencent/bugly/yaq/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/yaq/crashreport/common/info/a;
-c/HappyMod    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-c/LuluBox    invoke-virtual/range {p0 .. p0}, Lcom/google/android/gms/internal/ge;->o()Lcom/google/android/gms/internal/jd;
-c/LuluBox    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-c/LuluBox    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0, v1, v2}, Lcom/appsflyer/am;->a(Ljava/lang/String;[Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->getCountryCode()I
-c/LuluBox    invoke-virtual {p1}, Lcom/facebook/GraphResponse;->b()Lorg/json/JSONObject;
-c/LuluBox    invoke-virtual {p1}, Landroid/graphics/Bitmap;->getHeight()I
-c/LuluBox    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->l()Lcom/google/android/gms/common/util/d;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/ge;->h()Lcom/google/android/gms/internal/ga;
-c/LuluBox    invoke-static {p1, p2}, Lcom/google/android/gms/internal/ag;->a(Landroid/os/Parcel;I)V
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->n([Ljava/lang/Object;)I
-c/LuluBox    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
-c/LuluBox    invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
-c/LuluBox    invoke-direct {v7}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0}, Lcom/lulu/unreal/client/core/UnrealEngine;->U()Lz1/abo;
-c/HappyMod    invoke-static {}, Lcom/tencent/bugly/yaq/proguard/p;->a()Lcom/tencent/bugly/yaq/proguard/p;
-c/HappyMod    invoke-interface {v0, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/HappyMod    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v6}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {v6}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {v1}, Landroid/support/constraint/solver/widgets/ConstraintAnchor;->getResolutionNode()Landroid/support/constraint/solver/widgets/ResolutionAnchor;
-c/LuluBox    invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
-c/LuluBox    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-virtual {v0, p1}, Landroid/support/v4/util/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
-c/LuluBox    invoke-virtual {p4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1}, Lz1/avf;->h()Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {p1}, Lz1/avf;->f()Ljava/lang/Integer;
-c/LuluBox    invoke-virtual {p1}, Lcom/google/android/gms/internal/pn;->i()J
-c/LuluBox    invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
-c/LuluBox    invoke-virtual {p1, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-virtual {p0}, Lkotlin/jvm/internal/u;->e()D
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/ge;->e()Lcom/google/android/gms/internal/fq;
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/xe;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-virtual {p0, v0}, Landroid/os/Parcel;->setDataPosition(I)V
-c/LuluBox    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->c(I)V
-c/LuluBox    invoke-super {p0}, Lcom/google/android/gms/internal/pp;->b()I
-c/LuluBox    invoke-super {p0, p1}, Lcom/google/android/gms/internal/pp;->a(Lcom/google/android/gms/internal/po;)V
-c/LuluBox    invoke-super {p0, p1, v0}, Lcom/google/android/gms/internal/pp;->a(Lcom/google/android/gms/internal/pn;I)Z
-c/LuluBox    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
-c/LuluBox    invoke-static {v0}, Lz1/arc;->a(Lio/reactivex/parallel/a;)Lio/reactivex/parallel/a;
-c/LuluBox    invoke-static {v0, v1}, Lmirror/b;->load(Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/Class;
-c/LuluBox    invoke-static {v0, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-c/LuluBox    invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
-c/LuluBox    invoke-static {p1}, Landroid/support/v7/widget/RecyclerView;->getChildViewHolderInt(Landroid/view/View;)Landroid/support/v7/widget/RecyclerView$ViewHolder;
-c/LuluBox    invoke-static {p1, v3, v1, p2, v2}, Lcom/google/android/gms/internal/ag;->a(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
-c/LuluBox    invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/internal/ag;->a(Landroid/os/Parcel;ILjava/lang/String;Z)V
-c/LuluBox    invoke-static {p1, v0}, Lcom/facebook/internal/af;->a(Ljava/lang/Object;Ljava/lang/String;)V
-c/LuluBox    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-c/LuluBox    invoke-static {p0}, Landroid/support/v4/view/ViewCompat;->postInvalidateOnAnimation(Landroid/view/View;)V
-c/LuluBox    invoke-static {p0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
-c/LuluBox    invoke-interface {p1, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p0}, Ljava/util/Map;->size()I
-c/LuluBox    invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
-c/LuluBox    invoke-direct {v0, v1}, Lcom/xiaomi/smack/packet/h$a;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-c/LuluBox    invoke-direct {p1, v0}, Lcom/facebook/FacebookException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0}, Lcom/google/android/gms/internal/pp;-><init>()V
-c/HappyMod    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/HappyMod    invoke-static {v2, v3}, Lcom/tencent/bugly/yaq/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/HappyMod    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-c/HappyMod    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-virtual {v2}, Lcom/google/android/gms/internal/ff;->y()Lcom/google/android/gms/internal/fh;
-c/LuluBox    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v11}, Lcom/xiaomi/xmpush/thrift/u;->b()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v0}, Lcom/google/android/gms/internal/ew;->b()Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
-c/LuluBox    invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->b()V
-c/LuluBox    invoke-virtual {p0}, Landroid/support/v7/widget/StaggeredGridLayoutManager;->getChildCount()I
-c/LuluBox    invoke-virtual {p0}, Landroid/os/Parcel;->readInt()I
-c/LuluBox    invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
-c/LuluBox    invoke-virtual {p0, p2}, Landroidx/versionedparcelable/VersionedParcel;->b(I)Z
-c/LuluBox    invoke-static {}, Lz1/app;->a()Lio/reactivex/ad;
-c/LuluBox    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
-c/LuluBox    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/ar;->a(Lcom/google/android/gms/common/api/internal/ar;)Landroid/os/Handler;
-c/LuluBox    invoke-static {v0, p1}, Lcom/google/android/gms/internal/mb;->a(Landroid/os/Parcel;Landroid/os/Parcelable;)V
-c/LuluBox    invoke-static {p1, v1, v0}, Lcom/google/android/gms/internal/ag;->a(Landroid/os/Parcel;II)V
-c/LuluBox    invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
-c/LuluBox    invoke-interface {v1, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
-c/LuluBox    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-direct {v0}, Ljava/lang/IllegalStateException;-><init>()V
-c/LuluBox    invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
-c/LuluBox    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(I)V
-c/LuluBox    invoke-direct {v0, v1, v2, v3}, Lorg/apache/a/a/b;-><init>(Ljava/lang/String;BS)V
-c/LuluBox    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
-c/LuluBox    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;-><init>()V
-c/LuluBox    invoke-direct {p0}, Lcom/bumptech/glide/request/a;->a()Lcom/bumptech/glide/request/a;
-c/HappyMod    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/HappyMod    invoke-virtual {p1, v0, v3}, Lcom/tencent/bugly/yaq/proguard/i;->b(IZ)Ljava/lang/String;
-c/HappyMod    invoke-static {}, Lcom/tencent/bugly/yaq/CrashModule;->getInstance()Lcom/tencent/bugly/yaq/CrashModule;
-c/LuluBox    invoke-virtual {v8}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1}, Lcom/google/android/gms/internal/pr;->hashCode()I
-c/LuluBox    invoke-virtual {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;->iterator()Ljava/util/Iterator;
-c/LuluBox    invoke-virtual {v0}, Lcom/google/android/gms/internal/ge;->l()Lcom/google/android/gms/internal/he;
-c/LuluBox    invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/pr;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
-c/LuluBox    invoke-virtual {p1}, Lcom/google/android/gms/internal/pr;->b()Z
-c/LuluBox    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
-c/LuluBox    invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1, v0}, Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
-c/LuluBox    invoke-virtual {p0}, Lz1/aac;->b()Lz1/abp;
-c/LuluBox    invoke-virtual {p0}, Lkotlinx/coroutines/experimental/bh;->o()Ljava/lang/Object;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/mt;->s()I
-c/LuluBox    invoke-virtual {p0}, Landroid/support/v7/widget/ActionBarOverlayLayout;->pullChildren()V
-c/LuluBox    invoke-virtual {p0}, Landroid/support/v7/app/AppCompatActivity;->getDelegate()Landroid/support/v7/app/AppCompatDelegate;
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/xf;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-static/range {p1 .. p1}, Lcom/google/android/gms/internal/ff;->a(Ljava/lang/String;)Ljava/lang/Object;
-c/LuluBox    invoke-static {}, Lcom/lulu/unreal/client/core/UnrealEngine;->d()Ljava/lang/Object;
-c/LuluBox    invoke-static {v4}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-static {v4}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
-c/LuluBox    invoke-static {v0}, Lcom/xiaomi/channel/commonutils/logger/b;->a(Ljava/lang/Throwable;)V
-c/LuluBox    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-static {p2, p1}, Lcom/google/android/gms/internal/mb;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
-c/LuluBox    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
-c/LuluBox    invoke-static {p1}, Lio/reactivex/exceptions/a;->b(Ljava/lang/Throwable;)V
-c/LuluBox    invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
-c/LuluBox    invoke-static {p1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
-c/LuluBox    invoke-static {p1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->a([Ljava/lang/Object;)Ljava/util/List;
-c/LuluBox    invoke-static {p0}, Landroid/support/v4/view/ViewCompat;->getLayoutDirection(Landroid/view/View;)I
-c/LuluBox    invoke-interface {v0}, Landroid/database/Cursor;->close()V
-c/LuluBox    invoke-interface {v0, v2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
-c/LuluBox    invoke-direct/range {v0 .. v5}, Lcom/facebook/GraphRequest;-><init>(Lcom/facebook/AccessToken;Ljava/lang/String;Landroid/os/Bundle;Lcom/facebook/HttpMethod;Lcom/facebook/GraphRequest$b;)V
-c/LuluBox    invoke-direct {v2, v1}, Ljava/util/ArrayList;-><init>(I)V
-c/LuluBox    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {v1, v2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
-c/LuluBox    invoke-direct {v0, v2, v1}, Landroid/support/v4/view/accessibility/AccessibilityNodeInfoCompat$AccessibilityActionCompat;-><init>(ILjava/lang/CharSequence;)V
-c/LuluBox    invoke-direct {v0, v1, v14, v15}, Lcom/xiaomi/xmpush/thrift/a;-><init>(Ljava/lang/String;II)V
-c/LuluBox    invoke-direct {p0}, Ljava/lang/IllegalArgumentException;-><init>()V
-c/HappyMod    invoke-virtual {p1, v0, v3}, Lcom/tencent/bugly/yaq/proguard/h;->b(IZ)Ljava/lang/String;
-c/HappyMod    invoke-static {v1, v2}, Lcom/tencent/bugly/yaq/proguard/x;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
-c/HappyMod    invoke-static {v0}, Lcom/tencent/bugly/yaq/proguard/z;->a(Ljava/lang/String;)Z
-c/HappyMod    invoke-direct {p0, p2}, Lcom/tencent/bugly/yaq/proguard/h;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual/range {p2 .. p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
-c/LuluBox    invoke-virtual {v1}, Lcom/google/android/gms/internal/zzexu;->ordinal()I
-c/LuluBox    invoke-virtual {v10, v0}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
-c/LuluBox    invoke-virtual {v0, p3}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {v0, p1, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p3}, Ljava/lang/String;->length()I
-c/LuluBox    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
-c/LuluBox    invoke-virtual {p2, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1}, Lz1/avf;->e()Z
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
-c/LuluBox    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
-c/LuluBox    invoke-virtual {p1}, Landroid/support/v7/widget/TintTypedArray;->recycle()V
-c/LuluBox    invoke-virtual {p1}, Landroid/os/Parcel;->recycle()V
-c/LuluBox    invoke-virtual {p1, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
-c/LuluBox    invoke-virtual {p0}, Lcom/google/zxing/common/c;->c()I
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->q()Lcom/google/android/gms/internal/jd;
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/zc;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/yk;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/xg;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-virtual {p0, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
-c/LuluBox    invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p0, p1}, Lio/reactivex/observers/BaseTestConsumer;->a(Ljava/lang/String;)Ljava/lang/AssertionError;
-c/LuluBox    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/lz;->b(ILandroid/os/Parcel;)V
-c/LuluBox    invoke-static {}, Lcom/xiaomi/stats/f;->a()Lcom/xiaomi/stats/f;
-c/LuluBox    invoke-static {}, Lcom/lulubox/rxbus/c;->a()Lcom/lulubox/rxbus/c;
-c/LuluBox    invoke-static {}, Lcom/lulu/unreal/os/VUserHandle;->getCallingUserId()I
-c/LuluBox    invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
-c/LuluBox    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/u;->r(Ljava/lang/Iterable;)Ljava/util/List;
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->t([S)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->t([J)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->t([I)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->t([F)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->t([D)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->t([C)I
-c/LuluBox    invoke-static {p0}, Lkotlin/collections/l;->t([B)I
-c/LuluBox    invoke-static {p0}, Lcom/xiaomi/channel/commonutils/logger/b;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-interface {v3}, Ljava/util/List;->size()I
-c/LuluBox    invoke-interface {v1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v0, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-c/LuluBox    invoke-interface {p1, v6}, Lz1/ath;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
-c/HappyMod    invoke-virtual {v4}, Ljava/io/IOException;->printStackTrace()V
-c/HappyMod    invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V
-c/HappyMod    invoke-virtual {v0, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/HappyMod    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
-c/HappyMod    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
-c/LuluBox    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-c/LuluBox    invoke-virtual {v1}, Ljava/lang/Long;->longValue()J
-c/LuluBox    invoke-virtual {v1}, Lcom/google/android/gms/internal/hb;->u()Lcom/google/android/gms/internal/ff;
-c/LuluBox    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-c/LuluBox    invoke-virtual {v0, v1, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
-c/LuluBox    invoke-virtual {p3, v2}, Landroid/os/Parcel;->writeInt(I)V
-c/LuluBox    invoke-virtual {p2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p1}, Lcom/google/android/gms/internal/pn;->h()I
-c/LuluBox    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
-c/LuluBox    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->d()I
-c/LuluBox    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
-c/LuluBox    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
-c/LuluBox    invoke-static {}, Lio/reactivex/i;->b()Lio/reactivex/i;
-c/LuluBox    invoke-static {}, Lcom/lulu/unreal/server/content/f;->clearCallingIdentity()J
-c/LuluBox    invoke-static {v8}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {v4}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
-c/LuluBox    invoke-static {v1}, Lcom/xiaomi/channel/commonutils/logger/b;->a(Ljava/lang/String;)V
-c/LuluBox    invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {v1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-c/LuluBox    invoke-static {v1, v0}, Lz1/avj;->c(II)I
-c/LuluBox    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-c/LuluBox    invoke-interface {v2, p3}, Lkotlinx/coroutines/experimental/channels/n;->c(Lkotlin/coroutines/experimental/c;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {v2, p3}, Lkotlinx/coroutines/experimental/channels/n;->a(Lkotlin/coroutines/experimental/c;)Ljava/lang/Object;
-c/LuluBox    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
-c/LuluBox    invoke-interface {p1, v0}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
-c/LuluBox    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
-c/LuluBox    invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0}, Lcom/lulu/unreal/server/content/f;->a()Lcom/lulu/unreal/server/content/b;
-c/LuluBox    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
-c/LuluBox    invoke-direct {p0, p1}, Lcom/xiaomi/push/service/XMPushService$i;-><init>(I)V
-c/HappyMod    invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
-c/HappyMod    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-c/LuluBox    invoke-virtual {v7, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-c/LuluBox    invoke-virtual {v1, v0}, Lcom/lulu/unreal/helper/d;->a(I)Z
-c/LuluBox    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {v0, v1}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
-c/LuluBox    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p2, v0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
-c/LuluBox    invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
-c/LuluBox    invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
-c/LuluBox    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-c/LuluBox    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-c/LuluBox    invoke-virtual {p0}, Ljava/io/IOException;->printStackTrace()V
-c/LuluBox    invoke-virtual {p0}, Lcom/xiaomi/push/service/XMPushService;->getApplicationContext()Landroid/content/Context;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/protobuf/nano/a;->A()B
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/zzeuk;->size()I
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->v()Lcom/google/android/gms/internal/fq;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/android/gms/internal/hb;->t()Lcom/google/android/gms/internal/ga;
-c/LuluBox    invoke-virtual {p0}, Lcom/google/a/a/b;->o()B
-c/LuluBox    invoke-virtual {p0}, Landroid/support/v4/widget/NestedScrollView;->getChildCount()I
-c/LuluBox    invoke-virtual {p0}, Landroid/support/constraint/solver/widgets/ConstraintWidget;->getParent()Landroid/support/constraint/solver/widgets/ConstraintWidget;
-c/LuluBox    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
-c/LuluBox    invoke-virtual {p0, v0}, Lz1/yv;->a(Lz1/wi;)Lz1/wi;
-c/LuluBox    invoke-static {}, Landroid/support/v4/os/TraceCompat;->endSection()V
-c/LuluBox    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-c/LuluBox    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
-c/LuluBox    invoke-static {v1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-c/LuluBox    invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
-c/LuluBox    invoke-static {v0}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
-c/LuluBox    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/ar;->b(ZLjava/lang/Object;)V
-c/LuluBox    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/ar;->a(ZLjava/lang/Object;)V
-c/LuluBox    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-c/LuluBox    invoke-static {p1}, Lcom/facebook/internal/ae;->a(Ljava/lang/String;)Z
+c/malware_samples/312    invoke-virtual {v0, v1, p0}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-static {p1}, Lcom/facebook/login/c;->a(Ljava/lang/String;)Landroid/os/Bundle;
+c/malware_samples/312    invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+c/malware_samples/333    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/312    invoke-virtual {p5}, Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {p3}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {p2, v0, p1}, Lcom/facebook/appevents/g;->b(Ljava/lang/String;Landroid/os/Bundle;)V
+c/malware_samples/312    invoke-virtual {p2, p3, p1}, Lcom/facebook/appevents/g;->b(Ljava/lang/String;Landroid/os/Bundle;)V
+c/malware_samples/312    invoke-virtual {p1, v0, p3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {p1, v0, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {p1, p3, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-static {v0}, Lcom/facebook/login/c;->a(Ljava/lang/String;)Landroid/os/Bundle;
+c/malware_samples/69    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/38    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/24    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/18    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/44    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/251    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/187    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/74    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/2    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/43    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/349    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/192    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/241    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/61    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/350    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/167    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/46    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/254    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/91    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/194    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/11    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/100    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/232    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/132    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/144    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/115    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/163    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/176    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/165    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/100    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/70    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/149    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/65    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/130    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/16    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/72    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/113    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/194    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/35    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/307    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/181    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/253    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/62    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/194    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/312    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/312    invoke-virtual {v3}, Lcom/facebook/login/LoginBehavior;->toString()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {v3}, Lcom/facebook/login/DefaultAudience;->toString()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {v1}, Lcom/facebook/login/LoginClient$Result$Code;->a()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+c/malware_samples/312    invoke-virtual {v1, v2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
+c/malware_samples/312    invoke-virtual {v1, p1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+c/malware_samples/312    invoke-virtual {v0, v3, v1, v2}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
+c/malware_samples/312    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {v0, v1, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {v0, p2, p3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {v0, p1, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {p3}, Lcom/facebook/login/LoginClient$Result$Code;->a()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {p3, p5, p4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+c/malware_samples/312    invoke-virtual {p2, p1, v0}, Lcom/facebook/appevents/g;->b(Ljava/lang/String;Landroid/os/Bundle;)V
+c/malware_samples/312    invoke-virtual {p1}, Lcom/facebook/login/LoginClient$Request;->f()Z
+c/malware_samples/312    invoke-virtual {p1}, Lcom/facebook/login/LoginClient$Request;->e()Ljava/lang/String;
+c/malware_samples/312    invoke-virtual {p1}, Lcom/facebook/login/LoginClient$Request;->c()Lcom/facebook/login/DefaultAudience;
+c/malware_samples/312    invoke-virtual {p1}, Lcom/facebook/login/LoginClient$Request;->b()Lcom/facebook/login/LoginBehavior;
+c/malware_samples/312    invoke-virtual {p1}, Lcom/facebook/login/LoginClient$Request;->a()Ljava/util/Set;
+c/malware_samples/312    invoke-virtual {p1}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+c/malware_samples/312    invoke-virtual {p1, v2, v1, v0}, Lcom/facebook/appevents/g;->a(Ljava/lang/String;Ljava/lang/Double;Landroid/os/Bundle;)V
+c/malware_samples/312    invoke-virtual {p1, p5, p3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {p1, p4, p3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {p1, p3, p5}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {p1, p3, p4}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-virtual {p1, p2, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+c/malware_samples/312    invoke-virtual {p0, p1, p2, v0}, Lcom/facebook/login/c;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/312    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+c/malware_samples/312    invoke-static {}, Lcom/facebook/login/LoginClient;->d()I
+c/malware_samples/312    invoke-static {v3, v4}, Landroid/text/TextUtils;->join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
+c/malware_samples/312    invoke-interface {p6}, Ljava/util/Map;->isEmpty()Z
+c/malware_samples/312    invoke-interface {p4}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+c/malware_samples/312    invoke-interface {p4}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+c/malware_samples/312    invoke-interface {p4}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+c/malware_samples/312    invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+c/malware_samples/312    invoke-interface {p2}, Ljava/util/Map;->isEmpty()Z
+c/malware_samples/312    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/312    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/312    invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
+c/malware_samples/312    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+c/malware_samples/312    invoke-direct {v0, p1, p2}, Lcom/facebook/appevents/g;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+c/malware_samples/312    invoke-direct {p3, p6}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
+c/malware_samples/312    invoke-direct {p3, p2}, Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
+c/malware_samples/312    invoke-direct {p2}, Lorg/json/JSONObject;-><init>()V
+c/malware_samples/66    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/3    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/113    invoke-virtual {p1, v0}, Lcom/system/security_update/tgnet/AbstractSerializedData;->writeInt32(I)V
+c/malware_samples/128    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/113    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-virtual {p1, v0}, Lorg/telegram/tgnet/AbstractSerializedData;->writeInt32(I)V
+c/malware_samples/349    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/91    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/192    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/115    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/171    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/43    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/251    invoke-virtual {p1, p2}, Lorg/telegram/tgnet/AbstractSerializedData;->readInt32(Z)I
+c/malware_samples/232    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/144    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/132    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/141    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/327    invoke-interface {v1, v6, v7}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+c/malware_samples/318    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+c/malware_samples/113    invoke-virtual {p1, p2}, Lcom/system/security_update/tgnet/AbstractSerializedData;->readInt32(Z)I
+c/malware_samples/317    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/14    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/232    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/144    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/132    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/183    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/305    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/251    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/40    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/5    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/146    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/232    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/144    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/132    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/289    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/128    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/18    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/254    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/43    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/31    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/15    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/80    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/115    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/167    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/408    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/194    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/115    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/251    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/194    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/349    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/38    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/149    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/415    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/115    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/44    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/126    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/100    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/11    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/149    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/350    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/128    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/327    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/43    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/318    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/212    invoke-static {v0}, Lgnu/mapping/SimpleSymbol;->valueOf(Ljava/lang/String;)Lgnu/mapping/SimpleSymbol;
+c/malware_samples/91    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/366    invoke-static {v0}, Lgnu/mapping/SimpleSymbol;->valueOf(Ljava/lang/String;)Lgnu/mapping/SimpleSymbol;
+c/malware_samples/130    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/165    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/149    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/251    invoke-virtual {v2, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+c/malware_samples/366    invoke-static {p0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+c/malware_samples/2    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/74    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/235    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/297    invoke-static {v0}, Lgnu/mapping/SimpleSymbol;->valueOf(Ljava/lang/String;)Lgnu/mapping/SimpleSymbol;
+c/malware_samples/61    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/24    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/186    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/5    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/192    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/66    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/3    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/149    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/31    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/66    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/3    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/16    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/177    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/100    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/415    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/46    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/219    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/113    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/317    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/115    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/180    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/214    invoke-virtual {v0}, Lgnu/mapping/SimpleSymbol;->readResolve()Ljava/lang/Object;
+c/malware_samples/213    invoke-virtual {v0}, Lgnu/mapping/SimpleSymbol;->readResolve()Ljava/lang/Object;
+c/malware_samples/251    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
+c/malware_samples/214    invoke-direct {v0, v1}, Lgnu/mapping/SimpleSymbol;-><init>(Ljava/lang/String;)V
+c/malware_samples/69    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/213    invoke-direct {v0, v1}, Lgnu/mapping/SimpleSymbol;-><init>(Ljava/lang/String;)V
+c/malware_samples/192    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/38    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/113    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeInt(I)V
+c/malware_samples/144    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeInt(I)V
+c/malware_samples/132    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeInt(I)V
+c/malware_samples/72    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/100    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/43    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/38    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/110    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/349    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/43    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/232    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/144    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/134    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/132    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/165    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/18    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/43    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/176    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/91    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/333    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/254    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/115    invoke-interface {p1, v0, v1}, Lorg/bouncycastle/jcajce/provider/config/ConfigurableProvider;->addAlgorithm(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/15    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/386    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+c/malware_samples/232    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+c/malware_samples/144    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+c/malware_samples/132    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+c/malware_samples/386    invoke-virtual {v0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+c/malware_samples/187    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/352    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/43    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/100    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/158    invoke-virtual {p1, p2}, Lorg/b/a/a;->a(Z)I
+c/malware_samples/44    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/192    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/232    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+c/malware_samples/144    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+c/malware_samples/132    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+c/malware_samples/349    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/43    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/396    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/38    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/5    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-virtual {v0, v1}, Lorg/spongycastle/asn1/ASN1EncodableVector;->add(Lorg/spongycastle/asn1/ASN1Encodable;)V
+c/malware_samples/349    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/44    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/348    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/184    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/18    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/66    invoke-static {p0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/3    invoke-static {p0, v1}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/232    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+c/malware_samples/144    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+c/malware_samples/132    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+c/malware_samples/115    invoke-direct {p0}, Lorg/bouncycastle/asn1/ASN1Object;-><init>()V
+c/malware_samples/62    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/165    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/113    invoke-direct {p0}, Lorg/spongycastle/asn1/ASN1Object;-><init>()V
+c/malware_samples/44    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/194    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/18    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/232    invoke-virtual {v2}, Landroid/os/Parcel;->readException()V
+c/malware_samples/144    invoke-virtual {v2}, Landroid/os/Parcel;->readException()V
+c/malware_samples/132    invoke-virtual {v2}, Landroid/os/Parcel;->readException()V
+c/malware_samples/241    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/100    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/7    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/252    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/10    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/66    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/3    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/146    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/43    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/149    invoke-virtual/range {v0 .. v7}, Lorg/b/b/b/b;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/b/a/a/c;
+c/malware_samples/149    invoke-virtual {v0, v8, v1, v2}, Lorg/b/b/b/b;->a(Ljava/lang/String;Lorg/b/a/d;I)Lorg/b/a/a$a;
+c/malware_samples/149    invoke-static {}, Lcom/googlecode/mp4parser/RequiresParseDetailAspect;->aspectOf()Lcom/googlecode/mp4parser/RequiresParseDetailAspect;
+c/malware_samples/132    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/35    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/144    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-interface {v0, v3, v1, v2, v4}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+c/malware_samples/144    invoke-interface {v0, v3, v1, v2, v4}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+c/malware_samples/132    invoke-interface {v0, v3, v1, v2, v4}, Landroid/os/IBinder;->transact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+c/malware_samples/192    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/149    invoke-virtual {v1, v0}, Lcom/googlecode/mp4parser/RequiresParseDetailAspect;->before(Lorg/b/a/a;)V
+c/malware_samples/149    invoke-virtual {v0, v1, v2}, Ljava/util/Hashtable;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/43    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/194    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/194    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/149    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/44    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/232    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+c/malware_samples/18    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/144    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+c/malware_samples/132    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
+c/malware_samples/251    invoke-direct {v0, v1, v2, v3}, Lcom/google/android/gms/internal/clearcut/zzge$zzq$zzb;-><init>(Ljava/lang/String;II)V
+c/malware_samples/126    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/240    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/165    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/31    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/167    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/192    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/115    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/40    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/349    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/146    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/113    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/108    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/35    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/45    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/26    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/228    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/185    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/123    invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/62    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/70    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/350    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/167    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/43    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/251    invoke-virtual/range {v0 .. v7}, Lorg/a/b/b/b;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/a/a/a/c;
+c/malware_samples/251    invoke-virtual {v0, v8, v1, v2}, Lorg/a/b/b/b;->a(Ljava/lang/String;Lorg/a/a/d;I)Lorg/a/a/a$a;
+c/malware_samples/242    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/415    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/11    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/317    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/350    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/115    invoke-virtual {v0, v1}, Lorg/bouncycastle/asn1/ASN1EncodableVector;->add(Lorg/bouncycastle/asn1/ASN1Encodable;)V
+c/malware_samples/307    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/18    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/16    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/115    invoke-virtual {v0, v1}, Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;->branch(Ljava/lang/String;)Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;
+c/malware_samples/113    invoke-virtual {v0, v1}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;->branch(Ljava/lang/String;)Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+c/malware_samples/415    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/44    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/66    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/3    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/46    invoke-static {p1, v0}, Lio/reactivex/internal/functions/ObjectHelper;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+c/malware_samples/317    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/115    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/18    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-static {}, Lcom/googlecode/mp4parser/RequiresParseDetailAspect;->aspectOf()Lcom/googlecode/mp4parser/RequiresParseDetailAspect;
+c/malware_samples/415    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/408    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/349    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/165    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/251    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/18    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/100    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/251    invoke-virtual {v1, v0}, Lcom/googlecode/mp4parser/RequiresParseDetailAspect;->before(Lorg/a/a/a;)V
+c/malware_samples/38    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/254    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/165    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/66    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/350    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/3    invoke-static {p1, v1}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/183    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/415    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/144    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/62    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/192    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/132    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/289    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/115    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/181    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/176    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/163    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/253    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/241    invoke-virtual {v1}, Lcom/cmy/cyber/developers/gps/speedometer/tripmeter/ImportantDwala;->getCurSpeed()D
+c/malware_samples/66    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/3    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/171    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/44    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/146    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/61    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/415    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/5    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/74    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/254    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/11    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/91    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-static {p1, v0}, Lorg/apache/thrift/protocol/TProtocolUtil;->skip(Lorg/apache/thrift/protocol/TProtocol;B)V
+c/malware_samples/181    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/287    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/281    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/278    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/277    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/273    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/265    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/165    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/254    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/167    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/100    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/181    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/317    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/177    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/355    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/5    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/31    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/167    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/44    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/38    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/46    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/2    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/74    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/350    invoke-static {p0, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/284    invoke-virtual {v0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+c/malware_samples/2    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/80    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/128    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/61    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/165    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/305    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/62    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/45    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/26    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/228    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/185    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/123    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/44    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/288    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/286    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/267    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/266    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/100    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/126    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/115    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/149    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+c/malware_samples/149    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+c/malware_samples/46    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/181    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/130    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/31    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/171    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/100    invoke-static {v0}, Lcom/google/a/a/a/a/a/a;->a(Ljava/lang/Throwable;)V
+c/malware_samples/74    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/3    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/72    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/61    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/232    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/132    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/66    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/254    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/24    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/18    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/415    invoke-direct {p0}, Lorg/bouncycastle/asn1/ASN1Encodable;-><init>()V
+c/malware_samples/350    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/144    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/415    invoke-virtual {v0, v1}, Lorg/bouncycastle/asn1/ASN1EncodableVector;->add(Lorg/bouncycastle/asn1/DEREncodable;)V
+c/malware_samples/251    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+c/malware_samples/11    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/11    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/91    invoke-static {p1, v0}, Lio/reactivex/internal/functions/ObjectHelper;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+c/malware_samples/85    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/262    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/241    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/408    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/76    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/251    invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/16    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/62    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/418    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/317    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/18    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/61    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/141    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/68    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/232    invoke-static {p1, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzc(Landroid/os/Parcel;II)V
+c/malware_samples/171    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/152    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/144    invoke-static {p1, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzc(Landroid/os/Parcel;II)V
+c/malware_samples/132    invoke-static {p1, v1, v2}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzc(Landroid/os/Parcel;II)V
+c/malware_samples/149    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/24    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/167    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/2    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/66    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/417    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/350    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/3    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/76    invoke-virtual {v1, v2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/408    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/149    invoke-virtual {v0, v1}, Lorg/spongycastle/asn1/ASN1EncodableVector;->a(Lorg/spongycastle/asn1/ASN1Encodable;)V
+c/malware_samples/408    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/46    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/251    invoke-static {v0}, Lorg/telegram/messenger/o;->a(Ljava/lang/Throwable;)V
+c/malware_samples/100    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-interface {v0, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+c/malware_samples/144    invoke-interface {v0, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+c/malware_samples/132    invoke-interface {v0, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+c/malware_samples/38    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/317    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/280    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/70    invoke-static {v0}, Lcom/bear/data/f/c;->a(Ljava/lang/String;)Ljava/lang/String;
+c/malware_samples/317    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/16    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/91    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/415    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/251    invoke-virtual {p1, v0}, Lorg/telegram/tgnet/AbstractSerializedData;->writeString(Ljava/lang/String;)V
+c/malware_samples/349    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/35    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/24    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/5    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/183    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/44    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/69    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/18    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/149    invoke-virtual {v0, v1}, Lorg/bouncycastle/asn1/ASN1EncodableVector;->a(Lorg/bouncycastle/asn1/DEREncodable;)V
+c/malware_samples/80    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/110    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/15    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/74    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/254    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/187    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/126    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/13    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+c/malware_samples/11    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/69    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/408    invoke-direct {v0}, Lmaps/ay/d;-><init>()V
+c/malware_samples/69    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/16    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/130    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/251    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/2    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/70    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/354    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/91    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/415    invoke-virtual {p0, v0, v1}, Lorg/bouncycastle/jce/provider/BouncyCastleProvider;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/149    invoke-virtual {p0, v0, v1}, Lorg/bouncycastle/jce/provider/BouncyCastleProvider;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/130    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/176    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/333    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/250    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/44    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/113    invoke-virtual {p1, v0}, Lcom/system/security_update/tgnet/AbstractSerializedData;->writeString(Ljava/lang/String;)V
+c/malware_samples/171    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/35    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/229    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/100    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/69    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/zza;-><init>()V
+c/malware_samples/144    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/zza;-><init>()V
+c/malware_samples/132    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/zza;-><init>()V
+c/malware_samples/113    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+c/malware_samples/15    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/254    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/24    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/113    invoke-virtual {v0, v1}, Ljava/util/BitSet;->set(I)V
+c/malware_samples/113    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/241    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/127    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/113    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+c/malware_samples/113    invoke-virtual {p1}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldEnd()V
+c/malware_samples/113    invoke-virtual {p1, v0}, Lorg/apache/thrift/protocol/TProtocol;->writeFieldBegin(Lorg/apache/thrift/protocol/TField;)V
+c/malware_samples/62    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/127    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-virtual {v0, v1}, Ljava/lang/Boolean;->compareTo(Ljava/lang/Boolean;)I
+c/malware_samples/350    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/187    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/132    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/61    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/285    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/15    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/144    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/113    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/396    invoke-virtual {p1}, Lcom/google/protobuf/micro/CodedInputStreamMicro;->readString()Ljava/lang/String;
+c/malware_samples/194    invoke-virtual {v1, v4}, Lcom/amazonaws/util/AWSRequestMetrics;->endEvent(Lcom/amazonaws/metrics/MetricType;)V
+c/malware_samples/16    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/100    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/251    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/65    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzfn;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/14    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/43    invoke-virtual {p2, p1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+c/malware_samples/251    invoke-direct {p0}, Lorg/telegram/tgnet/TLObject;-><init>()V
+c/malware_samples/72    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/69    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzfn;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/333    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/333    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzfn;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/187    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/187    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzfn;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/12    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/232    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+c/malware_samples/132    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+c/malware_samples/43    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/72    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/70    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/46    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/232    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/internal/zzaa$zza;->zzg(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/zzaa$zza;
+c/malware_samples/144    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/internal/zzaa$zza;->zzg(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/zzaa$zza;
+c/malware_samples/132    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/internal/zzaa$zza;->zzg(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/android/gms/common/internal/zzaa$zza;
+c/malware_samples/35    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/115    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/74    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/128    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/149    invoke-interface {p1, v0, v1}, Lorg/spongycastle/jcajce/provider/config/ConfigurableProvider;->a(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/127    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/115    invoke-virtual {p1, v0}, Lorg/bouncycastle/asn1/ASN1Sequence;->getObjectAt(I)Lorg/bouncycastle/asn1/ASN1Encodable;
+c/malware_samples/65    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/393    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/251    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/176    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/115    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/366    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/232    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/113    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+c/malware_samples/91    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/130    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/132    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/126    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/91    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/65    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/317    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/2    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/297    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/241    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzfm;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/24    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzfm;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/214    invoke-direct {v0, v1, v2, v3, v4}, Lgnu/expr/ModuleMethod;-><init>(Lgnu/expr/ModuleBody;ILjava/lang/Object;I)V
+c/malware_samples/213    invoke-direct {v0, v1, v2, v3, v4}, Lgnu/expr/ModuleMethod;-><init>(Lgnu/expr/ModuleBody;ILjava/lang/Object;I)V
+c/malware_samples/212    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/192    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/100    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/5    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/396    invoke-static {}, Lcom/google/android/finsky/FinskyApp;->get()Lcom/google/android/finsky/FinskyApp;
+c/malware_samples/31    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/149    invoke-static {v0, p0, p0}, Lorg/b/b/b/b;->a(Lorg/b/a/a$a;Ljava/lang/Object;Ljava/lang/Object;)Lorg/b/a/a;
+c/malware_samples/251    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/146    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+c/malware_samples/144    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/113    invoke-direct {p0}, Lcom/system/security_update/tgnet/TLObject;-><init>()V
+c/malware_samples/113    invoke-virtual {p1, v0}, Lorg/spongycastle/asn1/ASN1Sequence;->getObjectAt(I)Lorg/spongycastle/asn1/ASN1Encodable;
+c/malware_samples/251    invoke-virtual {p1, p2}, Lorg/telegram/tgnet/AbstractSerializedData;->readString(Z)Ljava/lang/String;
+c/malware_samples/44    invoke-virtual {p2, p1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+c/malware_samples/18    invoke-virtual {p2, p1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+c/malware_samples/144    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+c/malware_samples/46    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/2    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/74    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/240    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/24    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/2    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/38    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/130    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/43    invoke-virtual {v1}, Landroid/os/Parcel;->readException()V
+c/malware_samples/232    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+c/malware_samples/144    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+c/malware_samples/132    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+c/malware_samples/43    invoke-virtual {v0, v2}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+c/malware_samples/100    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/43    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/38    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/15    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/253    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/126    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-virtual {p1, p2}, Lcom/system/security_update/tgnet/AbstractSerializedData;->readString(Z)Ljava/lang/String;
+c/malware_samples/304    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/176    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/5    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/415    invoke-virtual {v0, v1, v2}, Ljava/util/Hashtable;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/146    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/91    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/350    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/241    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/69    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzdvv;->get()Ljava/lang/Object;
+c/malware_samples/65    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzdwo;->get()Ljava/lang/Object;
+c/malware_samples/333    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzdvv;->get()Ljava/lang/Object;
+c/malware_samples/318    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/187    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzdvv;->get()Ljava/lang/Object;
+c/malware_samples/163    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/so1;->get()Ljava/lang/Object;
+c/malware_samples/15    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/70    invoke-static {v0}, Lcom/hfiving/e/c;->a(Ljava/lang/String;)Ljava/lang/String;
+c/malware_samples/31    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/110    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/62    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/415    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/35    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/396    invoke-direct {v0}, Ljava/lang/NullPointerException;-><init>()V
+c/malware_samples/305    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/72    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/356    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/44    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/408    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/38    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+c/malware_samples/18    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/356    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/408    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/408    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/187    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/184    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-static {v0}, Lorg/telegram/messenger/ac;->a(I)Lorg/telegram/messenger/ac;
+c/malware_samples/235    invoke-static {v1}, Lvn/iwin/d/ct;->a(I)Ljava/lang/String;
+c/malware_samples/35    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/349    invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/232    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzaZ(Landroid/os/Parcel;)I
+c/malware_samples/232    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzJ(Landroid/os/Parcel;I)V
+c/malware_samples/144    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzaZ(Landroid/os/Parcel;)I
+c/malware_samples/144    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzJ(Landroid/os/Parcel;I)V
+c/malware_samples/132    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzaZ(Landroid/os/Parcel;)I
+c/malware_samples/132    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/zzc;->zzJ(Landroid/os/Parcel;I)V
+c/malware_samples/40    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/167    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/11    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/110    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/61    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/349    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/333    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/241    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzdtt;->get()Ljava/lang/Object;
+c/malware_samples/24    invoke-interface {v0}, Lcom/google/android/gms/internal/ads/zzdtt;->get()Ljava/lang/Object;
+c/malware_samples/192    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/415    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/232    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+c/malware_samples/214    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/213    invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+c/malware_samples/144    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+c/malware_samples/132    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+c/malware_samples/24    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/24    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/91    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzew;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/74    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/aku;->k_()Landroid/os/Parcel;
+c/malware_samples/70    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/2    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzew;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/38    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/167    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/ayy;->z()Landroid/os/Parcel;
+c/malware_samples/115    invoke-virtual {v0, v1, v2}, Ljava/util/Hashtable;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/11    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/ayy;->z()Landroid/os/Parcel;
+c/malware_samples/115    invoke-direct {v0, v1}, Lorg/bouncycastle/asn1/ASN1ObjectIdentifier;-><init>(Ljava/lang/String;)V
+c/malware_samples/72    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/415    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/214    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/213    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/40    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/32    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/149    invoke-direct {v0, v1}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Ljava/lang/String;)V
+c/malware_samples/118    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/415    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/204    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/149    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+c/malware_samples/113    invoke-direct {v0, v1}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;-><init>(Ljava/lang/String;)V
+c/malware_samples/333    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/187    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/186    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/3    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/134    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/66    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/40    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/241    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/24    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/194    invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/38    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/214    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/213    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/212    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/2    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/171    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/91    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/214    invoke-virtual {p0, v0, v1}, Lkawa/standard/Scheme;->defProcStFld(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/213    invoke-virtual {p0, v0, v1}, Lkawa/standard/Scheme;->defProcStFld(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/69    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/38    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/251    invoke-static {v0, p0, p0}, Lorg/a/b/b/b;->a(Lorg/a/a/a$a;Ljava/lang/Object;Ljava/lang/Object;)Lorg/a/a/a;
+c/malware_samples/251    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+c/malware_samples/171    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/415    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/366    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/192    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/349    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/232    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzb;->zzaY(Landroid/os/Parcel;)I
+c/malware_samples/232    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzb;->zzaX(Landroid/os/Parcel;)I
+c/malware_samples/144    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzb;->zzaY(Landroid/os/Parcel;)I
+c/malware_samples/144    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzb;->zzaX(Landroid/os/Parcel;)I
+c/malware_samples/132    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzb;->zzaY(Landroid/os/Parcel;)I
+c/malware_samples/132    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/zzb;->zzaX(Landroid/os/Parcel;)I
+c/malware_samples/91    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/44    invoke-virtual {v1}, Landroid/os/Parcel;->readException()V
+c/malware_samples/44    invoke-virtual {v0, v2}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+c/malware_samples/253    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/181    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/18    invoke-virtual {v1}, Landroid/os/Parcel;->readException()V
+c/malware_samples/18    invoke-virtual {v0, v2}, Landroid/os/Parcel;->writeInterfaceToken(Ljava/lang/String;)V
+c/malware_samples/70    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/333    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/232    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/144    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/366    invoke-virtual {p0, v0, v1}, Lkawa/standard/Scheme;->defProcStFld(Ljava/lang/String;Ljava/lang/String;)V
+c/malware_samples/235    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/192    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/132    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/80    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/38    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+c/malware_samples/18    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/251    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/194    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+c/malware_samples/18    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/43    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/110    invoke-virtual {p0, v0}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/24    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/183    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/305    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/232    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/212    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/132    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/74    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/317    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/235    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/214    invoke-virtual {v3}, Lgnu/mapping/SimpleSymbol;->readResolve()Ljava/lang/Object;
+c/malware_samples/213    invoke-virtual {v3}, Lgnu/mapping/SimpleSymbol;->readResolve()Ljava/lang/Object;
+c/malware_samples/192    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/144    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/317    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/241    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/192    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/72    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzej;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/70    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzej;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/43    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/408    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/348    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/130    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/ahy;->l_()Landroid/os/Parcel;
+c/malware_samples/43    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/183    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/74    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/68    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/307    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/232    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/192    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/aiz;->v_()Landroid/os/Parcel;
+c/malware_samples/152    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/80    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/132    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/38    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
+c/malware_samples/350    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/348    invoke-virtual {v2}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/305    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/ajk;->r_()Landroid/os/Parcel;
+c/malware_samples/149    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+c/malware_samples/396    invoke-virtual {p1, v1}, Lcom/google/protobuf/micro/CodedInputStreamMicro;->readMessage(Lcom/google/protobuf/micro/MessageMicro;)V
+c/malware_samples/69    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/62    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/44    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/144    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/2    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/194    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/183    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+c/malware_samples/115    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/386    invoke-virtual {v0, v2, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+c/malware_samples/69    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/38    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/333    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/285    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/18    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/232    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/132    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/297    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/235    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/18    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/309    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/235    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/183    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/144    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+c/malware_samples/69    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/254    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/251    invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+c/malware_samples/115    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+c/malware_samples/113    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+c/malware_samples/214    invoke-direct {v3, v4}, Lgnu/mapping/SimpleSymbol;-><init>(Ljava/lang/String;)V
+c/malware_samples/213    invoke-direct {v3, v4}, Lgnu/mapping/SimpleSymbol;-><init>(Ljava/lang/String;)V
+c/malware_samples/14    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/Lr;->a()Landroid/os/Parcel;
+c/malware_samples/113    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/349    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/194    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
+c/malware_samples/183    invoke-virtual {p0}, Lcom/google/android/gms/internal/zzev;->zzbc()Landroid/os/Parcel;
+c/malware_samples/180    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/72    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/66    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/348    invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/307    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/3    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/113    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/70    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/44    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/349    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/251    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/43    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/408    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/250    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+c/malware_samples/69    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/192    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/115    invoke-virtual {p1}, Lorg/bouncycastle/asn1/ASN1Sequence;->size()I
+c/malware_samples/167    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/163    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/126    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/11    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/43    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/251    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/70    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/65    invoke-static {}, Lcom/google/android/gms/internal/ads/zzuv;->zzon()Lcom/google/android/gms/internal/ads/zzyw;
+c/malware_samples/349    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/192    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/307    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/69    invoke-static {}, Lcom/google/android/gms/internal/ads/zzuo;->zzoj()Lcom/google/android/gms/internal/ads/zzyp;
+c/malware_samples/333    invoke-static {}, Lcom/google/android/gms/internal/ads/zzuo;->zzoj()Lcom/google/android/gms/internal/ads/zzyp;
+c/malware_samples/3    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/187    invoke-static {}, Lcom/google/android/gms/internal/ads/zzuo;->zzoj()Lcom/google/android/gms/internal/ads/zzyp;
+c/malware_samples/176    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/91    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+c/malware_samples/66    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/186    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/408    invoke-virtual {v2, v3, v0, v1}, Lmaps/ay/d;->a(IILjava/lang/Object;)Lmaps/ay/d;
+c/malware_samples/115    invoke-direct {v0}, Lorg/bouncycastle/asn1/ASN1EncodableVector;-><init>()V
+c/malware_samples/408    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/61    invoke-virtual {p0}, Lcom/google/android/gms/internal/zzeu;->zzbe()Landroid/os/Parcel;
+c/malware_samples/5    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+c/malware_samples/46    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/241    invoke-virtual {v0, v1}, Landroid/support/v4/app/NotificationCompat$Builder;->setSmallIcon(I)Landroid/support/v4/app/NotificationCompat$Builder;
+c/malware_samples/237    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/187    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/175    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/40    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/305    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/251    invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/232    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+c/malware_samples/144    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+c/malware_samples/132    invoke-virtual {v1, v0}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+c/malware_samples/44    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/43    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/40    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/38    invoke-virtual {p0}, Lcom/google/android/gms/internal/ads/zzej;->obtainAndWriteInterfaceToken()Landroid/os/Parcel;
+c/malware_samples/115    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/72    invoke-static {p1, v0}, Lcz/msebera/android/httpclient/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+c/malware_samples/384    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+c/malware_samples/241    invoke-static {p1, v0}, Lcz/msebera/android/httpclient/util/Args;->notNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+c/malware_samples/163    invoke-static {}, Lcom/google/android/gms/internal/ads/n52;->e()Lcom/google/android/gms/internal/ads/l92;
+c/malware_samples/149    invoke-virtual {v0, v1}, Lorg/spongycastle/asn1/ASN1ObjectIdentifier;->b(Ljava/lang/String;)Lorg/spongycastle/asn1/ASN1ObjectIdentifier;
+c/malware_samples/44    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/418    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/318    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/31    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/307    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/232    invoke-static {v2, v3}, Lcom/google/android/gms/common/internal/zzaa;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+c/malware_samples/192    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/144    invoke-static {v2, v3}, Lcom/google/android/gms/common/internal/zzaa;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+c/malware_samples/132    invoke-static {v2, v3}, Lcom/google/android/gms/common/internal/zzaa;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+c/malware_samples/100    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+c/malware_samples/113    invoke-direct {v0}, Lorg/spongycastle/asn1/ASN1EncodableVector;-><init>()V
+c/malware_samples/241    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/192    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/181    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/128    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/35    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/24    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/235    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/192    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/187    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/146    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/130    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
+c/malware_samples/113    invoke-virtual {v0, v1, v2}, Ljava/util/Hashtable;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+c/malware_samples/149    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+c/malware_samples/100    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
+c/malware_samples/187    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/76    invoke-static {v1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
+c/malware_samples/172    invoke-static {v1}, Ljava/lang/Character;->valueOf(C)Ljava/lang/Character;
+c/malware_samples/91    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/46    invoke-static {p1}, Lio/reactivex/plugins/RxJavaPlugins;->onError(Ljava/lang/Throwable;)V
+c/malware_samples/43    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+c/malware_samples/350    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/251    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+c/malware_samples/24    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/113    invoke-virtual {p1}, Lorg/spongycastle/asn1/ASN1Sequence;->size()I
+c/malware_samples/38    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/350    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/100    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/91    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/91    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+c/malware_samples/66    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/317    invoke-static {v0}, Ljhucads/gw;->c(Ljava/lang/String;)Ljava/lang/String;
+c/malware_samples/3    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+c/malware_samples/253    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+c/malware_samples/35    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+c/malware_samples/2    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/13    invoke-direct {v2}, Ljava/lang/Object;-><init>()V
+c/malware_samples/113    invoke-direct {p1}, Ljava/lang/IllegalStateException;-><init>()V
+c/malware_samples/74    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/167    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+c/malware_samples/149    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

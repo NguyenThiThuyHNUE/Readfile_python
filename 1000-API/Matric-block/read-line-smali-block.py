@@ -27,7 +27,7 @@ resultFile = open("read-line-smali-block.txt", "w")
 automatic = open("../../1000-API/Automatic reverse translation/Automatic-reverse-translation.txt", "r")
 path = ""
 for line in automatic:
-    path ="/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/"+line.strip()+"/smali"
+    path ="/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/malware_samples/"+line.strip()+"/smali"
     readAllFile(path, resultFile)
 # resultFile.close()
 arr_new = []

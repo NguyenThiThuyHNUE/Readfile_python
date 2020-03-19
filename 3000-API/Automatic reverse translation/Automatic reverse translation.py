@@ -7,7 +7,7 @@ def readFileFolder(inFile, outFile):
         if x[len(x)-2] == "/":
             outFile.write(str(x[:len(x)-2])+'\n')
 pass
-inFile = "/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/dich-tu-dong.txt"
+inFile = "/home/dieuthuy/Khoa-luan-tot-nghiep/dich-nguoc/malware_samples/dich-tu-dong.txt"
 resultFile = open("Automatic-reverse-translation.txt", "w")
 
 readFileFolder(inFile, resultFile)
